@@ -1,0 +1,4 @@
+netcat_part.o : netcat_part.c 
+	gcc  -o netcat_part netcat_part.c  -lssl -lcrypto
+  
+
